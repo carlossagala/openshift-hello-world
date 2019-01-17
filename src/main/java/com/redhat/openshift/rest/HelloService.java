@@ -6,7 +6,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.GET;
 import javax.ws.rs.Produces;
 
-@Path("/hello")
+@Path("/")
 public class HelloService extends Application {
 
 	@GET
