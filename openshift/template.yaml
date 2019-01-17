@@ -70,7 +70,7 @@ objects:
             readinessProbe:
               failureThreshold: 3
               httpGet:
-                path: /rest/hello
+                path: /
                 port: 8080
                 scheme: HTTP
               initialDelaySeconds: 60
@@ -80,7 +80,7 @@ objects:
             livenessProbe:
               failureThreshold: 3
               httpGet:
-                path: /rest/hello
+                path: /
                 port: 8080
                 scheme: HTTP
               initialDelaySeconds: 120
